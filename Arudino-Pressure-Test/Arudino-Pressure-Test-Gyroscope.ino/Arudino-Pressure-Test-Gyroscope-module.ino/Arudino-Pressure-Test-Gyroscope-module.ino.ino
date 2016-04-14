@@ -1,13 +1,4 @@
 /*
-Original Author:
-Basic Example Sketch for the ITG-3200 (http://www.sparkfun.com/products/9801)
-SparkFun Electronics 2011
-Ryan Owens
-3/16/11
-Updtaed for Arduino 1.0 and beyond:
-Joel Bartlett 
-SparkFun Electronics
-10/16/13
 This code is public domain buy you buy me a beer if you use this and we meet someday (Beerware license).
 To use this example code, attach:
 Arduino  :  ITG-3200 Breakout

@@ -1,0 +1,23 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=SB-Cap-Fritzing-PCB-v2-Particle
+*Date=12:03:33
+*CreatedBy=Fritzing 0.9.2b.11.19.8d2d5970658f0bed09c661c9ea9a515b5f40f44c
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;1k;THT;7.39668;-9.18484;-90;Bottom;R1
+2;;THT;12.4767;-10.4548;0;Bottom;PR
+3;;;35.4397;-10.5601;-90;Bottom;TXT1
+4;;;18.8267;-10.4421;0;Bottom;Photon Sheild1
+5;;THT;22.6367;-10.4548;0;Bottom;TILT
+6;;;1.55079;-9.95817;90;Bottom;TXT2
+7;;;15.0166;-6.64494;0;Bottom;Via1
+8;1k;THT;17.5567;-11.7248;-90;Bottom;R2

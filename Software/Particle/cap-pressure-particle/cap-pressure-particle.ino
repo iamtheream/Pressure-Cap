@@ -1,7 +1,7 @@
 const char * DEVID1 = "v5AD1C1EB2754169"; //Scenario : "Shave-Butter-Device"
 boolean DEBUG = true;
 const char * serverName = "api.pushingbox.com";
-const int tiltSensor = 2; 
+const int tiltSensor = D2; 
 int capWeight = A0;
 int tiltReading;
 int tiltState;

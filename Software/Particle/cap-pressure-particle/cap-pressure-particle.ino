@@ -12,7 +12,7 @@ long debounceDelay = 50;    // the debounce time; increase if the output flicker
 
 const int statusTrigger = A1;
 const int threshold = 100;  // threshold value to decide when the detected sound is a knock or not
-int statusReading = 0;  // variable to store the value read from the sensor pin
+// int statusReading = 0;  // variable to store the value read from the sensor pin
 
 TCPClient client;
 
@@ -26,10 +26,10 @@ void setup(){
 void loop(){
   int capWeight = analogRead(capWeight); 
   tiltReading = digitalRead(tiltSensor);
-  statusReading = analogRead(statusTrigger);
+  // statusReading = analogRead(statusTrigger);
   Serial.println(capWeight);
   Serial.println(tiltReading);
-  Serial.println(statusReading);
+  // Serial.println(statusReading);
 
     // checking for noice
   if (tiltReading != lastTiltState) {
@@ -37,23 +37,23 @@ void loop(){
     lastDebounceTime = millis();
   } 
   
-  if (statusReading >= threshold) {
     readValues();
-  }
+
   delay(250);
 }
 
 void readValues() {
-     if (capWeight >= 140 && capWeight <= 200 && tiltReading == LOW) { 
-     delay(1250);
-      if (capWeight >= 140 && capWeight <= 200 && tiltReading == LOW) {
-        notification();
-     }
-     else {
-       return;
-      }
-    } 
-}
+     if (capWeight >= 900) { 
+        Serial.println("Waiting to take another reading...");
+        delay(4250);
+             if (capWeight >= 900 && capWeight <= 950 && tiltReading == HIGH) {
+                notification();
+             }
+            else {
+                return;
+            }
+         } 
+    }
 
 void notification()
 {

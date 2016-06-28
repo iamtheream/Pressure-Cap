@@ -1,0 +1,23 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=SB-Cap-Fritzing-PCB-v3-Particle+Lithium-Ion-SMD
+*Date=11:19:01
+*CreatedBy=Fritzing 0.9.2b.11.19.8d2d5970658f0bed09c661c9ea9a515b5f40f44c
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;1k;0805 [SMD];13.5017;-8.45326;0;Top;R2
+2;;;35.4397;-10.5601;-90;Bottom;TXT1
+3;;;18.8267;-10.4421;0;Bottom;Photon Sheild1
+4;;THT;7.9053;-12.5041;-90;Bottom;PR
+5;1k;0805 [SMD];8.05589;-8.40101;0;Top;R1
+6;;THT;13.7467;-12.4564;90;Bottom;TILT
+7;;;1.55079;-9.95817;90;Bottom;TXT2
+8;;;34.537;-9.68959;90;Bottom;Part1
